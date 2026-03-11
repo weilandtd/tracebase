@@ -25,12 +25,14 @@ iii) averaged rate of disappearance $R_{d,avg}$ and iv) averaged rate of appeara
 whereas rate of appearances are corrected for the tracer infusion rate. 
 
 Intact denotes that the rate was computed using the labeling fraction of the infused massisomer. For example, if uniformly labeled glucose (U13-glucose) is infused, 
-the intact rates are computed using the M+6 (C_labled = 6) labeling fraction of circulating glucose.
+the intact rates are computed using the M+6 (C_labled = 6) labeling fraction of circulating glucose-u.
 Thus, the intact rate of appearance $R_{a,intact}$, 
 and the intact rate of disappearance $R_{d,intact}$ are computed as:
 
 $$
 R_{a,intact} = \frac{1}{ L_{intact}} T 
+$$
+
 $$
 R_{a,intact} = \frac{(1-L_{intact})} { L_{intact} } T
 $$
